@@ -17,15 +17,28 @@
 	<body>
 
 		<div id="siric"></div>
+		<div id="sirnc"></div>
 		<script src="siriwave.js"></script>
 		<script>
 			var SW = new SiriWave({
 				width: 400,
 				height: 100,
-				speed: 0.12,
+				speed: 0.032,
 				amplitude: 1,
 				container: document.getElementById('siric'),
 				autostart: true,
+			});
+			var SW9 = new SiriWave({
+				amplitude: .2234,
+				width: 400,
+				height: 100,
+				speed: 0.032,
+				container: document.getElementById('sirnc'),
+				autostart: true,
+				style: 'ios9',
+				cover: false,
+				speedInterpolationSpeed: 1,
+				amplitudeInterpolationSpeed:0.5
 			});
 		</script>
 

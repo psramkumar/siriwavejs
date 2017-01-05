@@ -69,9 +69,10 @@ SiriWave9Curve.prototype.draw = function() {
 };
 
 SiriWave9Curve.prototype.definition = [
-{ color: '32,133,252' },
-{ color: '94,252,169' },
-{ color: '253,71,103' }
+{ color: '32, 133, 252' },
+{ color: '94, 252, 169' },
+{ color: '253, 71, 103' },
+{ color: '255, 255, 0'  }
 ];
 
 // Standard Curve
